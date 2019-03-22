@@ -1,0 +1,78 @@
+@font-face {
+	font-family: "standart";
+	src: url(fonts/cafe.woff);
+	<!src: url(fonts/standart.ttf);!>
+}
+body {
+			background-image: url(canvas.jpg);
+			margin-left: 5%;
+			margin-right: 5%;
+			border: 2px dotted black;
+			padding: 10px;
+			color: #763500;
+			font-size: 17px;
+			line-height: 1.2em;
+			font-family: sans-serif;
+			font: 17px/1.2em sans-serif;
+		}
+		p.in {
+			text-decoration: underline;
+			font-size: 120%;
+			}
+		p.out {
+			font-family: serif;
+			color: black;
+		}
+		div p {
+			color: black;
+		}
+		@media  screen and (min-device-width: 480px)
+		{
+		p.zagolovok
+			{
+				line-height: 1.9em;
+				font-style: italic;
+				border-top-left-radius: 40px;
+				border-bottom-right-radius: 40px;
+				border-style: groove;
+				border-width: 2px;
+				border-color: #d2b48c;
+				border: 1px groove #d2b48c;  
+				width: 714px;
+				padding-top: 340px;
+				background-color: #d2b48c;
+				background-image: url(images/nespresso.gif);
+				background-position: top;
+				background-repeat: no-repeat;
+				background: #d2b48c url(images/nespresso.gif) no-repeat; 
+
+			}    
+		}
+		#elixirs
+		{
+			border-width: thin;
+			border-style: solid;
+			border-color: black;
+			width: 300px;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			margin-left: 15px;
+			text-align: center;
+
+		}
+		h1 {
+			font-family: "standart", sans-serif;
+			border-bottom: 1px solid black;
+			font-size: 2.5em;
+			padding: 30px;
+			color: #763500;
+		}
+		blockquote {
+			text-decoration: underline overline line-through;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 110%;
+			font-style: italic;
+			border-bottom: thin dotted brown;
+		}
